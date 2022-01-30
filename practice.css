@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #393e46;
+}
+#start{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(105, 201, 145);
+}
+.diceimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:  white;
+}
+.diceimg img{
+    height: 90px;
+    padding: 0 10px 0 10px;
+}
+button{
+    background: rgb(179, 202, 74);
+    border: 2px solid yellow;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px 2px rgb(12, 175, 224);
+    margin-left: 48%;
+    padding: 5px 20px 5px 20px;
+    margin-top: 40px;
+}
+button:hover{
+    padding: 8px 25px 8px 25px;
+    background: greenyellow;
+    color: blue;
+}
+.btnRotate{
+    transition: 0.1s;
+    transform: rotate(100deg);
+}
+.btnRotate1{
+    transition: 0.1s;
+    transform: rotate(-100deg);
+}
